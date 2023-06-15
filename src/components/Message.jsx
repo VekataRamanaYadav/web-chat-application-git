@@ -10,7 +10,7 @@ const Message = ({ message }) => {
   const key = message.hashkey;
   const encmsg = message.encryptedText;
   const so = AesCtr.decrypt(encmsg, key, 256)
-  console.log("Decrypted: ",so)
+  //console.log("Decrypted: ",so)
 
   const ref = useRef();
 

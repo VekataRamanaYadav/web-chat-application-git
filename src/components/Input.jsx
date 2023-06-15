@@ -42,7 +42,7 @@ setHashkey(a)
 printA()
 //console.log(hashkey)
 const enmsg = AesCtr.encrypt(text, hashkey, 256)
-console.log("Encrypted Msg:", enmsg)
+//console.log("Encrypted Msg:", enmsg)
   const handleSend = async () => {
     if (img) {
       const storageRef = ref(storage, uuid());
